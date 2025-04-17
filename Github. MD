@@ -1,0 +1,44 @@
+
+Note that I am powered by AI, so surprises and mistakes are possible. Make sure
+to verify any generated code or suggestions.
+It seems like you're trying to reference a GitHub repository, but the URL you provided is not valid. Here's why:
+
+1. **Invalid Username**: GitHub usernames cannot contain special characters like `@` or periods (`.`) in this context.
+2. **Invalid Repository Name**: Repository names should not include special characters like `@` or `.com`.
+
+If your GitHub username is `Sazwan1996`, a valid GitHub repository URL would look like this:
+
+```
+https://github.com/Sazwan1996/repository-name
+```
+
+### Steps to Create a GitHub Repository
+If you're trying to create a new repository, follow these steps:
+
+1. **Log in to GitHub**:
+   - Go to [GitHub.com](https://github.com) and log in with your account.
+
+2. **Create a New Repository**:
+   - Click on the `+` icon in the top-right corner and select `New repository`.
+   - Enter a repository name (e.g., `my-project`).
+   - Add a description (optional).
+   - Choose whether the repository will be public or private.
+   - Click `Create repository`.
+
+3. **Clone the Repository Locally**:
+   - Run the following commands in your terminal:
+     ```bash
+     git clone https://github.com/Sazwan1996/repository-name.git
+     cd repository-name
+     ```
+
+4. **Add a README.md File**:
+   - Create a `README.md` file:
+     ```bash
+     echo "# My Project" > README.md
+     git add README.md
+     git commit -m "Add README.md"
+     git push origin main
+     ```
+
+If you need help with a specific repository or project, let me know, and I can guide you further!
